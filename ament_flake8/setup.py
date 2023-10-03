@@ -5,7 +5,7 @@ package_name = 'ament_flake8'
 
 setup(
     name='ament_lint_flake8',
-    version='0.14.3',
+    version='0.14.4',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/' + package_name, ['package.xml']),
@@ -14,7 +14,7 @@ setup(
     ],
     install_requires=[
         'setuptools',
-        'flake8>=4',
+        'flake8==4.0.1',
     ],
     package_data={'': [
         'configuration/ament_flake8.ini',
