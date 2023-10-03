@@ -4,7 +4,7 @@ from setuptools import setup
 package_name = 'ament_flake8'
 
 setup(
-    name=package_name,
+    name='ament_lint_flake8',
     version='0.14.2',
     packages=find_packages(exclude=['test']),
     data_files=[
@@ -12,7 +12,10 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
     ],
-    install_requires=['setuptools'],
+    install_requires=[
+        'setuptools',
+        'flake8>=4',
+    ],
     package_data={'': [
         'configuration/ament_flake8.ini',
     ]},
