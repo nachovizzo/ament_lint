@@ -4,7 +4,7 @@ from setuptools import setup
 package_name = 'ament_uncrustify'
 
 setup(
-    name=package_name,
+    name="ament_style_uncrustify",
     version='0.14.2',
     packages=find_packages(exclude=['test']),
     data_files=[
