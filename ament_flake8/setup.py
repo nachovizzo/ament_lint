@@ -5,7 +5,7 @@ package_name = 'ament_flake8'
 
 setup(
     name='ament_lint_flake8',
-    version='0.14.2-1',
+    version='0.14.3',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/' + package_name, ['package.xml']),
